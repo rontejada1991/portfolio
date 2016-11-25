@@ -27,7 +27,7 @@ hr {
 
 #profile_pic {
   border: 2px solid black;
-  margin-right: 20px;
+  margin: 0 auto;
 }
 
 .section_heading {
@@ -39,9 +39,7 @@ a.project_link, .navbar a {
 }
 
 .social_media {
-  /*height: 50px;*/
   padding: 15px 15px;
-  /*color: #fff;*/
 }
 
 .navbar>.container-fluid .navbar-brand {
@@ -108,5 +106,10 @@ footer {
     .mobile-img {
         margin: 0 0 0 20px;
         float: right;
+    }
+    
+    #profile_pic {
+      margin: 0 20px 0 0;
+      float: left;
     }
 }
