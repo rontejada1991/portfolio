@@ -1,0 +1,101 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background: #d3d3d3 url("../assets/footer_lodyas.png");
+}
+
+h1, h2, h3, a {
+  font-family: 'Arvo', serif;
+}
+
+hr {
+  color: blue;
+}
+
+#name {
+  color: #00FF00;
+}
+
+#content {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#dangerous_carousel {
+  margin-left: 20px;
+}
+
+#profile_pic {
+  border: 2px solid black;
+  margin-right: 20px;
+}
+
+.section_heading {
+  font-family: 'Delius Unicase', cursive;
+}
+
+a.project_link, .navbar a {
+  font-family: 'Roboto', sans-serif;
+}
+
+.social_media {
+  /*height: 50px;*/
+  padding: 15px 15px;
+  /*color: #fff;*/
+}
+
+.navbar>.container-fluid .navbar-brand {
+  margin-left: 0;
+}
+
+.fa {
+  display: inline;
+}
+
+.fa-terminal {
+  color: #00FF00;
+}
+
+.fa-linkedin {
+  color: #9999ff;
+}
+
+.fa-github {
+  color: #ffb732;
+}
+
+.fa-envelope {
+  color: #fff;
+}
+
+.img-thumbnail {
+  width: 400px;
+  height: 250px;
+  margin-left: 20px;
+  border-color: black;
+}
+
+.mobile-img {
+  margin-left: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.landscape {
+  width: 310px;
+  height: 194px;
+}
+
+.item .img-thumbnail {
+  margin-left: 0;
+  border: none;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .thumbnail a>img, .thumbnail>img {
+  height: 270px;
+}
+
+footer {
+  height: 20px;
+  width: 100%;
+}

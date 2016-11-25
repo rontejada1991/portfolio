@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ronald Tejada</title>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Delius+Unicase|Nunito|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <i class="fa fa-terminal" aria-hidden="true"></i>
+          </a>
+          <p id="name" class="navbar-text"><strong>Ronald Tejada</strong></p>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav" role="tablist">
+            <li role="presentation" class="active"><a href="#web_projects" aria-controls="web_projects" role="tab" data-toggle="tab">Web Projects<span class="sr-only">(current)</span></a></li>
+            <li role="presentation"><a href="#mobile_projects" aria-controls="mobile_projects" role="tab" data-toggle="tab">Mobile Projects</a></li>
+            <li role="presentation"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://www.linkedin.com/in/rontejada1991" target="_blank"><i class="social_media fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/rontejada1991" target="_blank"><i class="social_media fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+            <li><a href="mailto:rontejada91@gmail.com" target="_blank"><i class="social_media fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container" id="content">
+
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="web_projects">
+          <h1 class="section_heading">Web Projects</h1>
+          <hr>
+
+          <div class="segment clearfix">
+            <img src="assets/armadora.png" class="img-responsive img-thumbnail pull-right">
+            <h2>Armadora Gold Setup</h2>
+            <p>This small web application is used as a companion for the physical board game titled
+              <a href="http://www.blueorangegames.com/index.php/games/armadora" target="_blank">Armadora</a>
+              by Blue Orange Games. The app replicates the board used in the physical game and randomly
+              populates the pretermined cells with a set of numbers provided by the game. The app may also
+              be reset without refrehsing the page if users choose to start a new game.</p>
+            <p><strong>Front End</strong>: HTML, CSS, JavaScript, JQuery, Semantic UI</p>
+            <div class="btn-group" role="group">
+              <a class="project_link" href="https://rontejada1991.github.io/armadora_gold_setup/" target="_blank"><button type="button" class="btn btn-success">Visit Page</button></a>
+              <a class="project_link" href="https://github.com/rontejada1991/armadora_gold_setup" target="_blank"><button type="button" class="btn btn-info">Source Code</button></a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="segment clearfix">
+            <div id="dangerous_carousel" class="carousel slide pull-right" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#dangerous_carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#dangerous_carousel" data-slide-to="1"></li>
+                <li data-target="#dangerous_carousel" data-slide-to="2"></li>
+                <li data-target="#dangerous_carousel" data-slide-to="3"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="assets/dangerous_all.png" class="img-thumbnail img-responsive" alt="...">
+                </div>
+                <div class="item">
+                  <img src="assets/dangerous_new.png" class="img-thumbnail img-responsive" alt="...">
+                </div>
+                <div class="item">
+                  <img src="assets/dangerous_show.png" class="img-thumbnail img-responsive" alt="...">
+                </div>
+                <div class="item">
+                  <img src="assets/dangerous_edit.png" class="img-thumbnail img-responsive" alt="...">
+                </div>
+              </div>
+              <!-- Controls -->
+              <a class="left carousel-control" href="#dangerous_carousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#dangerous_carousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <h2>Dangerous Animals</h2>
+            <p>This web application provides dynamic content and follows the RESTful architecture.
+              Blogs are stored and retrieved from a NoSQL database. New blogs may be created, while
+              stored blogs may be viewed, edited, or deleted</p>
+            <p><strong>Front End</strong>: HTML, CSS, JavaScript, Semantic UI</p>
+            <p><strong>Back End</strong>: MongoDB, Node.js, Express, Mongoose, Body Parser, EJS, Express Sanitizer, Method Override</p>
+            <div class="btn-group" role="group">
+              <!-- <a class="project_link" href="#" target="_blank"><button type="button" class="btn btn-default" disabled="disabled">Visit Page</button></a> -->
+              <a class="project_link" href="https://github.com/rontejada1991/dangerous_animals" target="_blank"><button type="button" class="btn btn-info">Source Code</button></a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="segment clearfix">
+            <img src="assets/investigator.png" class="img-responsive img-thumbnail pull-right">
+            <h2>Investigator's Handbook</h2>
+            <p>The Investigator's Handbook is a web application designed to accompany the physical
+              board game titled <a href="https://www.fantasyflightgames.com/en/products/elder-sign/">
+                Elder Sign</a> by Fantasy Flight Games. This app keeps track of up to 8 character objects
+              (the maximum allowed in the game), has a dropdown menu to selet the character the user wishes
+              to use, as well as an option to choose one randomly. The app also keeps track of the characters
+              that have been picked, preventing them from being picked again within the same game session.
+              There is also a reset button for users who wish to start a new game without needing to refresh
+              the page.</p>
+            <p><strong>Front End</strong>: HTML, CSS, JavaScript, JQuery, Bootstrap, Google Fonts, Font Awesome</p>
+            <div class="btn-group" role="group">
+              <a class="project_link" href="https://rontejada1991.github.io/investigators_handbook/" target="_blank"><button type="button" class="btn btn-success">Visit Page</button></a>
+              <a class="project_link" href="https://github.com/rontejada1991/investigators_handbook" target="_blank"><button type="button" class="btn btn-info">Source Code</button></a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="segment clearfix">
+            <img src="assets/todo.png" class="img-responsive img-thumbnail pull-right">
+            <h2>To Do List</h2>
+            <p>This simple to use web application lets you add, crossout, and remove individual tasks
+              from a to do list. It also has the functionalities of removing all tasks from the list,
+              as well as hiding the input textbox once finished.</p>
+            <p><strong>Front End</strong>: HTML, CSS, JavaScript, JQuery, Bootstrap, Google Fonts, Font Awesome</p>
+            <div class="btn-group" role="group">
+              <a class="project_link" href="https://rontejada1991.github.io/todo_list/" target="_blank"><button type="button" class="btn btn-success">Visit Page</button></a>
+              <a class="project_link" href="https://github.com/rontejada1991/todo_list" target="_blank"><button type="button" class="btn btn-info">Source Code</button></a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="segment clearfix">
+            <img src="assets/color_game.png" class="img-responsive img-thumbnail pull-right">
+            <h2>Color Picker</h2>
+            <p>A web app that quizzes users on their RGB knowledge! The app includes varying difficulty
+              levels and a score keeper. As the user selects incorrect answers, the game will remove the
+              wrong options. If the user selects the correct answer, the app will ask whether the user
+              wishes to play again.</p>
+            <p><strong>Front End</strong>: HTML, CSS, JavaScript, Font Awesome</p>
+            <div class="btn-group" role="group">
+              <a class="project_link" href="https://rontejada1991.github.io/color_picker/" target="_blank"><button type="button" class="btn btn-success">Visit Page</button></a>
+              <a class="project_link" href="https://github.com/rontejada1991/color_picker" target="_blank"><button type="button" class="btn btn-info">Source Code</button></a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="segment clearfix">
+            <img src="assets/tarvernhub.png" class="img-responsive img-thumbnail pull-right">
+            <h2>Tarvernhub</h2>
+            <p>This CMS webpage was designed using WordPress as a content delivery portal for blogs.
+              This site is run with plugins to support search engine optimization techniques and anti-spam filters.
+              Each blog post created automatically creates a post to the brand's facebook and twitter feeds. There
+              is also an embedded twitter feed, advertising, and paypal donation. Finally, there is a contact form to
+              reach out to the author and a subscription option to be alerted of new blog posts.</p>
+            <p><strong>Front End</strong>: WordPress, HTML, CSS, JavaScript</p>
+            <div class="btn-group" role="group">
+              <a class="project_link" href="http://tarvernhub.com/" target="_blank"><button type="button" class="btn btn-success">Visit Page</button></a>
+            </div>
+          </div>
+        </div>
+
+        <div role="tabpanel" class="tab-pane fade" id="mobile_projects">
+          <h1 class="section_heading">Mobile Projects</h1>
+          <hr>
+
+          <div class="segment clearfix">
+            <img src="https://lh3.ggpht.com/xqTqvfkvSI9oWGwCNOcl6dm3ujW5O9YE4d6YgjsWuGWHOPgUPJcdwzmbCH2jWSNYFQw=h310-rw" class="img-responsive mobile-img pull-right">
+            <h2>Combinations &amp; Permutations</h2>
+            <p>Combinations &amp; Permutations is a simple tool designed to solve combination and permutation problems.</p>
+            <p>Designed to be quick and intuitive for those who need a quick answer to their mathematical problems.</p>
+            <p>The app asks simple questions that it will use to produce an answer for you. These questions are designed to
+              help you think critically while also taking care of the math for you. If you don't know whether the problem
+              is a combination or a permutation, the application takes care of that for you as well.</p>
+            <p><strong>Technologies Used</strong>: Java, XML, Android API, Java API, Android SDK</p>
+            <div class="btn-group" role="group">
+              <a class="project_link" href="https://play.google.com/store/apps/details?id=com.silvercloudgames.combinations&hl=en" target="_blank"><button type="button" class="btn btn-success">Google Play Store</button></a>
+              <a class="project_link" href="https://github.com/rontejada1991/Combinations-and-Permutations-Android-App" target="_blank"><button type="button" class="btn btn-info">Source Code</button></a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="segment clearfix">
+            <img src="https://lh5.ggpht.com/6fvSmummFHVA4FKRMlqoxk-xlJaogbASCrpvr01Fjp2jQH2hrIvzXxJn6HA4KUhgtpI=h310-rw" class="img-responsive mobile-img pull-right">
+            <h2>Under Bubble</h2>
+            <p>Under Bubble is a fixed shooter arcade game designed for those who want a quick and fun experience.</p>
+            <p>Gameplay features include -</p>
+            <ul>
+              <li>Distinct color variations for the player's avatar</li>
+              <li>Contrasting backgrounds ranging from light to dark atmospheres</li>
+              <li>Different types of enemies, each with their own speed and trajectory behaviors</li>
+              <li>Unique power-ups that can be utilized in a variety of different maneuvers</li>
+            </ul>
+            <p>Other features include -</p>
+            <ul>
+              <li>High Scores are saved to set a goal to beat the next time you play or to be the best among your friends and family!</li>
+              <li>Other statistics are recorded for you so you can keep track of your progress</li>
+              <li>Supports mute sound, for those who want to play while listening to their favorite music</li>
+              <li>More features will be added based on player feedback!</li>
+            </ul>
+            <p><strong>Technologies Used</strong>: Java, LibGDX Framework, Universal Tween Engine, Java API, Android SDK</p>
+            <div class="btn-group" role="group">
+              <a class="project_link" href="https://play.google.com/store/apps/details?id=com.rontejada91.SpaceInvaders.android&hl=en" target="_blank"><button type="button" class="btn btn-success">Google Play Store</button></a>
+              <a class="project_link" href="https://github.com/rontejada1991/Under-Bubble-Video-Game" target="_blank"><button type="button" class="btn btn-info">Source Code</button></a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="segment clearfix">
+            <img src="https://lh4.ggpht.com/yzPuIPs5QE_-Fkc8ZlkZxeMGluRLjIFjc0Rly84Dasx1fOd_97O43s161t5w0yMeLME=h310-rw" class="img-responsive mobile-img landscape pull-right">
+            <h2>Card Game Helper</h2>
+            <p>Card Game Helper is designed to be a universal tool for card game players who need one app for all of their card games needs.</p>
+            <p><em>Universal Support</em> - Popular supported card games include Magic: The Gathering, Yu-Gi-Oh!, Pokemon, Naruto Shippuden and
+              many others. If the card game requires you to keep track of player scores, use dice rolls, coin flips, or counters,
+              then Card Game Helper supports it!</p>
+            <p><em>Personal</em> - Players can enter their names on top of their scores to make battles even more personal.</p>
+            <p><em>Backtracking</em> - Previous dice rolls and coin flips are recorded for convenience in case players need to backtrack.</p>
+            <p><em>Sound</em> - Battles come to life as sound effects can be heard whenever damage is dealt or recovered, a game is restarted,
+              counters are placed or whenever coins are flipped and dice are rolled.</p>
+            <p><strong>Technologies Used</strong>: Java, XML, Android API, Java API, Android SDK</p>
+            <div class="btn-group" role="group">
+              <a class="project_link" href="https://play.google.com/store/apps/details?id=com.rontejada91.cardgamehelper&hl=en" target="_blank"><button type="button" class="btn btn-success">Google Play Store</button></a>
+              <a class="project_link" href="https://github.com/rontejada1991/Combinations-and-Permutations-Android-App" target="_blank"><button type="button" class="btn btn-info">Source Code</button></a>
+            </div>
+          </div>
+        </div>
+
+        <div role="tabpanel" class="tab-pane fade" id="about">
+          <h1 class="section_heading">About</h1>
+          <hr>
+
+          <div class="segment clearfix">
+            <img src="assets/ron.png" id="profile_pic" class="img-responsive pull-left">
+            <h2>Hi, I'm Ron!</h2>
+            <p>Thanks for taking the time to look around, hope you find something cool or interesting while you're here.</p>
+            <p>I created this page to host some of the projects I am the most proud of. I am a developer who enjoys puzzles, trying new foods, and staying up to date with the latest trends.</p>
+            <p>If you'd like to contact me for an opportunity, feel free to <a href="mailto:rontejada91@gmail.com" target="_blank">email me</a>.</p>
+          </div>
+        </div>
+      </div>
+
+    <footer></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
