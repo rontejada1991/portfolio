@@ -22,7 +22,7 @@ hr {
 }
 
 #dangerous_carousel {
-  margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 #profile_pic {
@@ -68,6 +68,10 @@ a.project_link, .navbar a {
   color: #fff;
 }
 
+.img-responsive {
+  margin-bottom: 10px;
+}
+
 .img-thumbnail {
   width: 400px;
   height: 250px;
@@ -76,9 +80,9 @@ a.project_link, .navbar a {
 }
 
 .mobile-img {
-  margin-left: 20px;
   border: 1px solid black;
   border-radius: 25px;
+  margin: 0 auto;
 }
 
 .landscape {
@@ -98,4 +102,11 @@ a.project_link, .navbar a {
 footer {
   height: 20px;
   width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+    .mobile-img {
+        margin: 0 0 0 20px;
+        float: right;
+    }
 }
